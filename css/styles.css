@@ -3,9 +3,6 @@ body {
     background-color: #ff4c68;
 }
 
-button {
-    margin-right: 20px;
-}
 
 #title {
     color: white;
@@ -14,7 +11,7 @@ button {
 h1 {
     font-family: "Montserrat";
     font-weight: 900;
-    font-size: 3rem;
+    font-size: 3.2rem;
     line-height: 1.5;
 }
 
@@ -25,32 +22,34 @@ h1 {
 /* Navigation bar */
 
 nav {
-    margin-bottom: 5rem;
+    margin-bottom: 6rem;
 }
 
 .navbar-brand {
     font-family: "Ubuntu";
     font-size: 2.5rem;
     font-weight: bold;
-}
+}    
 
-
-.download-btn {
-    margin-top: 2rem;
-}
 
 .nav-item {
-    padding-left: 10px;
+    padding: 0 18px;
     font-family: "Montserrat";
-    font-weight: 400;
+    font-weight: 100;
     font-size: 1.2rem;
-    margin: 1rem;
+
 }
 
+/* Download buttons */
+.download-btn {
+    margin: 2rem 1rem 0.5rem 0;
+}    
 
 
 .title-image {
     position: relative;
-    transform: rotate(30deg);
-    zoom: 0.8;
+    transform: rotate(25deg);
+    /* zoom: 0.7; */
+    width: 60%;
+    margin-top: 30px;
 }
