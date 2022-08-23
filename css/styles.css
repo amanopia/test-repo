@@ -1,15 +1,14 @@
-.nav-item { 
-    padding-left: 10px
+body {
+    font-family: "Montserrat";
+    background-color: #ff4c68;
 }
-.navbar-brand {
-    margin-left: 10px;
-}
+
 button {
     margin-right: 20px;
 }
 
 #title {
-    background-color: #ff4c68;
+    color: white;
 }
 
 h1 {
@@ -21,4 +20,31 @@ h1 {
 
 .container-fluid {
     padding: 3% 15%;
+}
+
+.navbar-brand {
+    margin-left: 10px;
+    font-size: 3rem;
+}
+
+.download-btn {
+    margin-top: 2rem;
+}
+
+.nav-item {
+    padding-left: 10px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin: 1rem;
+}
+
+nav {
+    margin-bottom: 5rem;
+}
+
+.title-image {
+    position: relative;
+    transform: rotate(30deg);
+    zoom: 0.8;
 }
