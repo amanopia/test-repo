@@ -100,3 +100,41 @@ nav {
 }
 
 
+ /* Testimonials section */
+
+ #testimonials {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+ }
+
+ #testimonials h2 {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+ }
+
+ .testimonial-image {
+    border-radius: 100%;
+    width: 10%;
+    margin: 20px;
+ }
+
+ #press{
+    text-align: center;
+    background-color: #ef8172;
+    padding-bottom: 3%;
+ }
+
+ .press-image {
+    width: 20%;
+    margin: 20px 20px 50px;
+ }
+
+ @media (min-width: 500px){
+    .press-image{
+        width: 50%;
+    }
+ }
