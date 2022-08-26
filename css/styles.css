@@ -141,3 +141,29 @@ nav {
         width: 50%;
     }
  }
+
+
+ /* Pricing */
+ #pricing {
+    background-color: white;
+    padding: 100px;
+ }
+ .card {
+    text-align: center;
+ }
+
+ /* @media (max-width: 820px){
+    .labrador-card {
+        width: 100%;
+    }
+ } */
+#pricing h2 {
+    font-weight: 600;
+}
+#pricing h3 {
+    margin: 10px;
+ }
+
+.pricing-column {
+    padding: 3% 2%;
+}
